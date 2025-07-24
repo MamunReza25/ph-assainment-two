@@ -44,8 +44,15 @@ body{
   --text-primary:#000000;
   --text-secendary:#E95A08;
 }
+
+      .section-description{
+        font-weight: 400;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.5);
+  
+      }
    /* share style  end*/
-   
+
 /* header section start */
 .header-container{
   display: flex;
@@ -132,3 +139,66 @@ nav ul{
     }
 
     /* hresponsive header end */
+
+    /* always fresh flowers section style start  */
+
+    .fresh-flowers-container{
+      display: flex;
+      justify-content: space-between;
+      align-items:end;
+    }
+  
+
+    .section-title-bannar{
+      font-weight: bold;
+      font-size: 65px;
+      color: var(--text-primary);
+
+    }
+    .bannar-title{
+      color: var(--text-secendary);
+    }
+
+    .fresh-flowers-container{
+      padding-top: 120px;
+      
+    }
+
+         /* always fresh flowers section style end */
+
+           /* always fresh flowers section responsive start  mobale */
+           @media screen and (max-width:576px) {
+
+            .fresh-flowers-container{
+
+                     display:flex;
+                      flex-direction: column-reverse;
+                    padding-top: 56px;
+                    padding-bottom: 0px;
+                    margin: 0px;
+                     
+                 }
+                  
+
+                 .section-title-bannar{
+                   font-weight: bold;
+                   font-size: 24px;
+                   }
+
+                   .section-description{
+                    font-size: 14px;
+                    padding: 10px 0px;
+                   }
+                .fresh-flowers-content{
+                  padding: 16px;
+                }
+
+                .bannar-img{
+                  width: 100%;
+                }
+
+
+           }
+
+
+           /* always fresh flowers section responsive end  mobale */
