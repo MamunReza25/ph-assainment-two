@@ -428,8 +428,8 @@ nav ul{
 
           /* deal section */
 
-          .deal-title{
-
+          .deal-container{
+            padding-bottom: 200px;
           }
           .deal-des{
                padding:0px 170px;
@@ -536,6 +536,10 @@ nav ul{
                   margin: 0px;
                 }
 
+                .deal-container{
+            padding-bottom: 40px;
+          }
+
                 .deal-title{
                   font-weight: 700;
                   font-size: 22px;
@@ -608,13 +612,14 @@ nav ul{
 
 
            /* contact-section */
-
+                   
            .contact-section{
             height: 533px;
             width: 100%;
             background-image: url(../assets/news-letter-bg.png);
             background-repeat: no-repeat;
             background-size: cover;
+            
           
            }
            .contact{
