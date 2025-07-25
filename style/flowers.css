@@ -3,6 +3,7 @@
 
 
 
+
 /* google font link */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -265,12 +266,13 @@ nav ul{
           /* plants responsive start mobaile */
                 
           @media screen and (max-width:576px) {
-
+                    
                      .plants-section{
                      padding: 0px;
                          }
                    .plants-content{
                     padding:0px;
+                    
                    }
              
                   .card h3{
@@ -288,17 +290,20 @@ nav ul{
              }
 
 
-                .section-title-responsive{
+                .plants-content-titile{
                      font-weight: 700;
                      font-size: 24px;
                      padding: 0px;
+                     text-align: center;
                 }
 
-                 .section-description-responsive{
+                 .section-description-plant{
+                
                      font-weight: 400;
                      font-size: 14px;
-                     padding: 0px 10px;
+                     padding: 0px 30px;
                      color: rgba(0, 0, 0, 0.5);
+                     text-align: center;
                 }
 
                  .card-img{
@@ -420,7 +425,3 @@ nav ul{
 
 
           /* flowers store and batch section responsive end mobaile  */
-
-
-
-
