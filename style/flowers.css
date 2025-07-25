@@ -681,7 +681,71 @@ nav ul{
 
                 
            }
+               
 
+          .container-footer{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 0px;
+            /* align-items: center; */
+          }
+
+          .footer-des{
+            width: 350px;
+            font-size: 22px;
+            color:rgba(0, 0, 0, 0.5);
+            padding-top: 10px;
+          }
+            
+           .menu-footer{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+           }
+
+           .menu-footer-1 a{
+            font-size:50px;
+           }
+          .menu-footer a{
+             text-decoration: none;
+            color:rgba(0, 0, 0, 0.5);
+            
+          }
+          .price{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+             color:rgba(0, 0, 0, 0.5);
+             font-size: 14px;
+             font-weight: 400;
+          }
+            .icon-footer img{
+              padding: 10px;
+            }
+            
+
+
+            /* responsive footer */
+            @media screen and (max-width:576px){
+               .container-footer{
+            display: flex;
+            flex-direction: column;
+            
+            padding: 0px 10px;
+            row-gap: 20px;
+            
+          }
+             
+
+           .footer-des{
+            width: 350px;
+            font-size:14px;
+            color:rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+          }
+
+
+            }
             .hide{
               display: none;
             }
