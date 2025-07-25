@@ -49,7 +49,15 @@ body{
         font-weight: 400;
         font-size: 22px;
         color: rgba(0, 0, 0, 0.5);
-  
+        text-align: center;
+      }
+
+      .section-title{
+        font-weight: bold;
+      font-size: 50px;
+      color: var(--text-primary);
+      text-align: center;
+      padding: 20px;
       }
    /* share style  end*/
 
@@ -155,6 +163,10 @@ nav ul{
       color: var(--text-primary);
 
     }
+
+    .section-description-bannar{
+      text-align: left;
+    }
     .bannar-title{
       color: var(--text-secendary);
     }
@@ -202,3 +214,116 @@ nav ul{
 
 
            /* always fresh flowers section responsive end  mobale */
+
+          /* plants section start */
+              .plants-section{
+                padding: 100px 0px;
+              }
+             .plants-content{
+              padding:0px 126px;
+             }
+             
+             .card-container{
+              padding: 50px 0px;
+              display: grid;
+              grid-template-columns: repeat(4,1fr);
+              row-gap: 30px;
+             }
+             .card{
+              width: 270px;
+              height: 480px;
+             }
+             .card h3{
+              text-align: center;
+              font-weight: 400;
+              font-size: 22px;
+              color: rgba(17, 17, 17, 1);
+              padding-top:25px;
+             }
+             .card h2{
+              text-align: center;
+              font-weight: 600;
+              font-size: 22px;
+              color: rgba(17, 17, 17, 1);
+              padding: 10px 0px;
+              padding-bottom:20px;
+             }
+             .btn{
+              background-color: var(--text-secendary);
+               width: 100%;
+              height: 50px;
+              color: white;
+              border: none;
+               font-weight: 500;
+              font-size: 16px;
+              text-align: center;
+             
+             }
+             
+          /* plants section end */
+
+          /* plants responsive start mobaile */
+                
+          @media screen and (max-width:576px) {
+
+                     .plants-section{
+                     padding: 0px;
+                         }
+                   .plants-content{
+                    padding:0px;
+                   }
+             
+                  .card h3{
+              text-align: center;
+              font-weight: 400;
+              font-size:14px;
+              padding: 0px;
+             }
+             .card h2{
+              text-align: center;
+              font-weight: 600;
+              font-size: 16px;
+              padding: 0px;
+              /* padding-bottom:10px; */
+             }
+
+
+                .section-title-responsive{
+                     font-weight: 700;
+                     font-size: 24px;
+                     padding: 0px;
+                }
+
+                 .section-description-responsive{
+                     font-weight: 400;
+                     font-size: 14px;
+                     padding: 0px 10px;
+                     color: rgba(0, 0, 0, 0.5);
+                }
+
+                 .card-img{
+                  width: 100%;
+                 }
+
+                 .card{
+                  width: 100%;
+                  height: 100%;
+                 }
+             .card-container{
+              display: grid;
+              grid-template-columns: repeat(2,1fr);
+              row-gap:10px;
+              column-gap: 10px;
+              padding:  20px 10px;
+             }
+          }
+      
+           .hide{
+            display: none;
+           }
+
+          /* plants responsive end mobaile */
+
+
+
+
