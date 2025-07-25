@@ -325,5 +325,102 @@ nav ul{
           /* plants responsive end mobaile */
 
 
+          /* flowers store and batch section start */
+            .flower-store-container{
+              display: flex;
+              justify-content: space-between;
+              column-gap: 60px;
+              position: relative;
+              padding: 80px 0px;
+            }
+
+            .flower-store-container img{
+              width: 100%;
+            }
+            
+            .flower-store-content{
+              width: 50%;
+            }
+            .flower-store-content h1{
+              text-align: left;
+              padding: 0px;
+            }
+            .flower-store-content ul{
+              text-align: left;
+              padding:20px;
+              line-height: 30px;
+            }
+            .flower-store-content ul li{
+              padding:20px;
+            
+            }
+
+          .spring{
+            position: absolute;
+            width: 286px;
+            height: 286px;
+            top:-40px;
+            left: 330px;
+          }
+
+          /* flowers store and batch section end*/
+
+
+          /* flowers store and batch section responsive start mobaile  */
+                @media screen and (max-width:576px) {
+                         .flower-store-container{
+                         flex-direction: column;
+                          padding:40px 15px;
+                          margin: 0px;
+                        }
+                         
+                         .flower-store-container img{
+                         width: 100%;
+                         }
+
+                        .spring{
+                          display: none;
+                        }
+                           
+
+                        .flower-store-content{
+                          padding-top: 20px;
+                          margin: 0px;
+                          width: 100%;
+                        }
+                          .section-title-responsive{
+                     font-weight: 700;
+                     font-size: 24px;
+                     padding: 0px;
+                     margin: 0px;
+                     text-align: justify;
+                }
+
+                 .section-description-responsive{
+                     font-weight: 400;
+                     font-size: 14px;
+                     padding: 0px;
+                     margin: 0px;
+                     text-align:left;
+                }
+
+                 .flower-store-content ul{
+              /* text-align: left; */
+              /* padding:0px 15px; */
+            
+            }
+            .flower-store-content ul li{
+              padding:5px 0px;
+            
+            }
+
+
+                }
+               
+
+
+          /* flowers store and batch section responsive end mobaile  */
+
+
 
 
